@@ -1,0 +1,73 @@
+/* style.css */
+
+/* Rating prompt container */
+#ratingPrompt {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Rating prompt text */
+#ratingPrompt p {
+  margin: 0 0 10px;
+}
+
+/* Rating prompt buttons */
+#ratingPrompt button {
+  margin-right: 5px;
+}
+
+/* Additional rating options container */
+#additionalOptions {
+  margin-top: 10px;
+}
+
+/* Additional rating options labels */
+#additionalOptions label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Additional rating options select and textarea */
+#additionalOptions select,
+#additionalOptions textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+/* Additional rating options submit button */
+#additionalOptions button {
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Thank you message container */
+.thankYouMessage {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
